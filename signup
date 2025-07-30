@@ -1,3 +1,41 @@
-layout: page
-title: "Sign up"
-permalink: /signup
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Billy's Dreamworld</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      margin-top: 80px;
+      background: #000000;
+    }
+    .logo {
+      width: 400px;
+      height: 400px;
+      margin-bottom: 30px;
+    }
+    .link-button {
+      display: inline-block;
+      padding: 12px 30px;
+      font-size: 1.2em;
+      background: #ffffff;
+      color: #000;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .link-button:hover {
+      background: #226bb6;
+    }
+  </style>
+</head>
+<body>
+  <img alt="Website Logo" class="logo" src="images/drmn1.png">
+  <h1>Welcome to Our Public Website!</h1>
+  <p>
+    <a href="https://billysdreamworld.com/signup/" class="link-button" target="_blank" rel="noopener">Join</a>
+  </p>
+</body>
+</html>
