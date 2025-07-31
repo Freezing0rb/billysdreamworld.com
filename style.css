@@ -1,0 +1,20 @@
+body {
+  background-color: #f2f2ef;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.center {
+display: block; 
+Margin-left: auto; 
+Margin-right: auto; 
+Width: auto;
+}
